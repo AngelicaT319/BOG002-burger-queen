@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Cocina from "../views/Cocina/Cocina";
-import { Inicio } from "../views/Inicio/Inicio";
-import Mesero from "../views/Mesero/Mesero";
-import NotFound from "../views/NotFount/NotFound";
+import Cocina from "../componentes/Cocina/Cocina";
+import { Inicio } from "../componentes/Inicio/Inicio";
+import Mesero from "../componentes/Mesero/Mesero";
+import NotFound from "../componentes/NotFount/NotFound";
 
 
 export default function AppRouter(){
