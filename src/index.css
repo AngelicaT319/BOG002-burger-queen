@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  background-color:#E5E5E5;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a{
+<<<<<<< HEAD
     text-decoration: none;
+=======
+ text-decoration: none;
+>>>>>>> be2d87722428ed1fab9d54a4d88a97b6c580d528
 }
 
 code {

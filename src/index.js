@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,15 +6,37 @@ import App from './App';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+=======
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
+import { FirebaseAppProvider } from "reactfire";
+import firebaseConfig from "./firebaseConfig";
+
+
+
+>>>>>>> be2d87722428ed1fab9d54a4d88a97b6c580d528
 
 
 ReactDOM.render(
+<<<<<<< HEAD
   
   <React.StrictMode>
     <App />
   </React.StrictMode>
   ,
   document.getElementById('root')
+=======
+  <FirebaseAppProvider firebaseConfig={firebaseConfig}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </FirebaseAppProvider>,
+  document.getElementById("root")
+>>>>>>> be2d87722428ed1fab9d54a4d88a97b6c580d528
 );
 
 // If you want your app to work offline and load faster, you can change
