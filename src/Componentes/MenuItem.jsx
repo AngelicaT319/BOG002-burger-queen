@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "@material-ui/core";
+import { Button, List } from "@material-ui/core";
 import Styles from "../App.Styles";
 import { CardContent, Card, Grid } from "@material-ui/core";
 
@@ -33,7 +33,7 @@ export const MenuItem = ({ menuItem, titulo, setPedido, pedido }) => {
                   {item1}
                   
                     {Object.keys(menuItem[item1]).map((item2, index2) => (
-                      <h4 key={index2}>${menuItem[item1][item2]}</h4>
+                      <List key={index2}>${menuItem[item1][item2]}</List>
                     ))}
                  
                   <Button

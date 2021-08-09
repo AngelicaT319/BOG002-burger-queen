@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Fragment } from "react";
 import FormMenu from "../componentes/FormMenu"
-import { Grid, Button } from "@material-ui/core";
+import { Grid, Button, List } from "@material-ui/core";
 import { MenuItem } from "./MenuItem";
 import Styles from "../App.Styles";
 import Modal from "@material-ui/core/Modal";
@@ -10,6 +10,7 @@ import { EstadoPedidos } from "./EstadoPedidos";
 
 
 const Menu = ({ pedido, setPedido }) => {
+  const classes = Styles();
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState([]);
   useEffect(() => {
@@ -17,7 +18,8 @@ const Menu = ({ pedido, setPedido }) => {
       .then((response) => response.json())
       .then((data) => setMenu(data));
   }, []);
-  const classes = Styles();
+
+ 
 
   const handleOpen = () => {
     setOpen(true);
@@ -59,7 +61,7 @@ const Menu = ({ pedido, setPedido }) => {
 
         <Grid container spacing={1}>
           <Grid item xs={12} md={4} lg={6}>
-            <h3>
+            <List>
               {Object.keys(menu).map((item, index) => (
                 <MenuItem
                   pedido={pedido}
@@ -69,7 +71,7 @@ const Menu = ({ pedido, setPedido }) => {
                   titulo={item}
                 />
               ))}
-            </h3>
+            </List>
           </Grid>
           <Grid item xs={12} md={8} lg={6}>
             <FormMenu pedido={pedido} setPedido={setPedido} />
