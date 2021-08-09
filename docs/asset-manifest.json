@@ -1,0 +1,41 @@
+{
+  "files": {
+    "analytics.js": "/static/js/analytics.e5b93b29.chunk.js",
+    "analytics.js.map": "/static/js/analytics.e5b93b29.chunk.js.map",
+    "auth.js": "/static/js/auth.15df8ce8.chunk.js",
+    "auth.js.map": "/static/js/auth.15df8ce8.chunk.js.map",
+    "database.js": "/static/js/database.b9eee89d.chunk.js",
+    "database.js.map": "/static/js/database.b9eee89d.chunk.js.map",
+    "functions.js": "/static/js/functions.65abe013.chunk.js",
+    "functions.js.map": "/static/js/functions.65abe013.chunk.js.map",
+    "main.css": "/static/css/main.c57c7d45.chunk.css",
+    "main.js": "/static/js/main.3800349d.chunk.js",
+    "main.js.map": "/static/js/main.3800349d.chunk.js.map",
+    "messaging.js": "/static/js/messaging.edbfddf7.chunk.js",
+    "messaging.js.map": "/static/js/messaging.edbfddf7.chunk.js.map",
+    "performance.js": "/static/js/performance.80e687cb.chunk.js",
+    "performance.js.map": "/static/js/performance.80e687cb.chunk.js.map",
+    "remoteConfig.js": "/static/js/remoteConfig.1dfc5fe2.chunk.js",
+    "remoteConfig.js.map": "/static/js/remoteConfig.1dfc5fe2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.78e17255.js",
+    "runtime-main.js.map": "/static/js/runtime-main.78e17255.js.map",
+    "storage.js": "/static/js/storage.64a21af7.chunk.js",
+    "storage.js.map": "/static/js/storage.64a21af7.chunk.js.map",
+    "static/js/10.b63c0704.chunk.js": "/static/js/10.b63c0704.chunk.js",
+    "static/js/10.b63c0704.chunk.js.map": "/static/js/10.b63c0704.chunk.js.map",
+    "static/js/11.5fd107ff.chunk.js": "/static/js/11.5fd107ff.chunk.js",
+    "static/js/11.5fd107ff.chunk.js.map": "/static/js/11.5fd107ff.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.c57c7d45.chunk.css.map": "/static/css/main.c57c7d45.chunk.css.map",
+    "static/js/10.b63c0704.chunk.js.LICENSE.txt": "/static/js/10.b63c0704.chunk.js.LICENSE.txt",
+    "static/media/Fondo.f366c499.jpg": "/static/media/Fondo.f366c499.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78e17255.js",
+    "static/js/10.b63c0704.chunk.js",
+    "static/css/main.c57c7d45.chunk.css",
+    "static/js/main.3800349d.chunk.js"
+  ]
+}
